@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0926284A29470693004F053A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284929470693004F053A /* AppDelegate.swift */; };
+		0926284C29470693004F053A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284B29470693004F053A /* SceneDelegate.swift */; };
+		0926284E29470693004F053A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284D29470693004F053A /* ViewController.swift */; };
+		0926285129470693004F053A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926284F29470693004F053A /* Main.storyboard */; };
+		0926285329470695004F053A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0926285229470695004F053A /* Assets.xcassets */; };
+		0926285629470695004F053A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926285429470695004F053A /* LaunchScreen.storyboard */; };
+		0926286129470695004F053A /* POC_PractiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926286029470695004F053A /* POC_PractiseTests.swift */; };
+		0926286B29470695004F053A /* POC_PractiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926286A29470695004F053A /* POC_PractiseUITests.swift */; };
+		0926286D29470695004F053A /* POC_PractiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926286C29470695004F053A /* POC_PractiseUITestsLaunchTests.swift */; };
+		0926289329471632004F053A /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926289229471632004F053A /* ServerConfig.swift */; };
+		0EB0B595590A475D515993FC /* Pods_POC_Practise_POC_PractiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365624FA1A87DE7B61A734F3 /* Pods_POC_Practise_POC_PractiseUITests.framework */; };
+		A358EE3109CEF7826CBD6DBB /* Pods_POC_Practise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C470657322DCD2983562D581 /* Pods_POC_Practise.framework */; };
+		E11187B7597AEB80EBF91FAD /* Pods_POC_PractiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EC00ED7C163CC60BCB4C08 /* Pods_POC_PractiseTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0926285D29470695004F053A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0926283E29470693004F053A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0926284529470693004F053A;
+			remoteInfo = "POC-Practise";
+		};
+		0926286729470695004F053A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0926283E29470693004F053A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0926284529470693004F053A;
+			remoteInfo = "POC-Practise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0926284629470693004F053A /* POC-Practise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-Practise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926284929470693004F053A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0926284B29470693004F053A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0926284D29470693004F053A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0926285029470693004F053A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0926285229470695004F053A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0926285529470695004F053A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0926285729470695004F053A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0926285C29470695004F053A /* POC-PractiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-PractiseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926286029470695004F053A /* POC_PractiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_PractiseTests.swift; sourceTree = "<group>"; };
+		0926286629470695004F053A /* POC-PractiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-PractiseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926286A29470695004F053A /* POC_PractiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_PractiseUITests.swift; sourceTree = "<group>"; };
+		0926286C29470695004F053A /* POC_PractiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_PractiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0926289229471632004F053A /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		16D62863AD9538A7996EA3CA /* Pods-POC-Practise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.release.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.release.xcconfig"; sourceTree = "<group>"; };
+		1755AA8F59A8AAC9E6829762 /* Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		19D5623B7A9E5716A2104ED9 /* Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		1DB6865A4344C041A6CE7D5C /* Pods-POC-Practise-POC-PractiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.debug.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		239F33904C65EF546D3C1BD8 /* Pods-POC-Practise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.debug.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.debug.xcconfig"; sourceTree = "<group>"; };
+		26FB383912A34A27654383D3 /* Pods-POC-Practise.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.releasedev.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.releasedev.xcconfig"; sourceTree = "<group>"; };
+		3262157D3458D1339914244A /* Pods-POC-Practise-POC-PractiseUITests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.debugqa.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		365624FA1A87DE7B61A734F3 /* Pods_POC_Practise_POC_PractiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POC_Practise_POC_PractiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489D2AFD2AB61100C82138E4 /* Pods-POC-PractiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.release.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		64436DF32D78991C5B06BFF9 /* Pods-POC-Practise.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.debugdev.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.debugdev.xcconfig"; sourceTree = "<group>"; };
+		6E9AE6D961F9C780146F645F /* Pods-POC-PractiseTests.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.debugqa.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.debugqa.xcconfig"; sourceTree = "<group>"; };
+		7B5EF1C09B286985B22F83A3 /* Pods-POC-Practise-POC-PractiseUITests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.releasedev.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		81E8087A73B2303FD98F9D27 /* Pods-POC-PractiseTests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.releaseqa.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		8598F5DA18850493C7393EA1 /* Pods-POC-PractiseTests.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.releasedev.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.releasedev.xcconfig"; sourceTree = "<group>"; };
+		9149E21BA60FCC5450ADB8E6 /* Pods-POC-PractiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.debug.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		939270140824AA7E72B29748 /* Pods-POC-Practise.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.releaseqa.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.releaseqa.xcconfig"; sourceTree = "<group>"; };
+		AE10BC42A55D8526D7B60255 /* Pods-POC-Practise.debugqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.debugqa.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.debugqa.xcconfig"; sourceTree = "<group>"; };
+		C470657322DCD2983562D581 /* Pods_POC_Practise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POC_Practise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EC00ED7C163CC60BCB4C08 /* Pods_POC_PractiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_POC_PractiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9416DFA1EB89977227C1455 /* Pods-POC-PractiseTests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-PractiseTests.debugdev.xcconfig"; path = "Target Support Files/Pods-POC-PractiseTests/Pods-POC-PractiseTests.debugdev.xcconfig"; sourceTree = "<group>"; };
+		FCD8205B3679DE6112537626 /* Pods-POC-Practise-POC-PractiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.release.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0926284329470693004F053A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A358EE3109CEF7826CBD6DBB /* Pods_POC_Practise.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926285929470695004F053A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E11187B7597AEB80EBF91FAD /* Pods_POC_PractiseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926286329470695004F053A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB0B595590A475D515993FC /* Pods_POC_Practise_POC_PractiseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0926283D29470693004F053A = {
+			isa = PBXGroup;
+			children = (
+				0926284829470693004F053A /* POC-Practise */,
+				0926285F29470695004F053A /* POC-PractiseTests */,
+				0926286929470695004F053A /* POC-PractiseUITests */,
+				0926284729470693004F053A /* Products */,
+				96D5FBDEF03A84836F095EC3 /* Pods */,
+				A61CD56E64E0B3EE6F5168BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0926284729470693004F053A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0926284629470693004F053A /* POC-Practise.app */,
+				0926285C29470695004F053A /* POC-PractiseTests.xctest */,
+				0926286629470695004F053A /* POC-PractiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0926284829470693004F053A /* POC-Practise */ = {
+			isa = PBXGroup;
+			children = (
+				0926284929470693004F053A /* AppDelegate.swift */,
+				0926284B29470693004F053A /* SceneDelegate.swift */,
+				0926284D29470693004F053A /* ViewController.swift */,
+				0926284F29470693004F053A /* Main.storyboard */,
+				0926285229470695004F053A /* Assets.xcassets */,
+				0926285429470695004F053A /* LaunchScreen.storyboard */,
+				0926285729470695004F053A /* Info.plist */,
+				0926289229471632004F053A /* ServerConfig.swift */,
+			);
+			path = "POC-Practise";
+			sourceTree = "<group>";
+		};
+		0926285F29470695004F053A /* POC-PractiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0926286029470695004F053A /* POC_PractiseTests.swift */,
+			);
+			path = "POC-PractiseTests";
+			sourceTree = "<group>";
+		};
+		0926286929470695004F053A /* POC-PractiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0926286A29470695004F053A /* POC_PractiseUITests.swift */,
+				0926286C29470695004F053A /* POC_PractiseUITestsLaunchTests.swift */,
+			);
+			path = "POC-PractiseUITests";
+			sourceTree = "<group>";
+		};
+		96D5FBDEF03A84836F095EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239F33904C65EF546D3C1BD8 /* Pods-POC-Practise.debug.xcconfig */,
+				64436DF32D78991C5B06BFF9 /* Pods-POC-Practise.debugdev.xcconfig */,
+				AE10BC42A55D8526D7B60255 /* Pods-POC-Practise.debugqa.xcconfig */,
+				16D62863AD9538A7996EA3CA /* Pods-POC-Practise.release.xcconfig */,
+				26FB383912A34A27654383D3 /* Pods-POC-Practise.releasedev.xcconfig */,
+				939270140824AA7E72B29748 /* Pods-POC-Practise.releaseqa.xcconfig */,
+				1DB6865A4344C041A6CE7D5C /* Pods-POC-Practise-POC-PractiseUITests.debug.xcconfig */,
+				19D5623B7A9E5716A2104ED9 /* Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig */,
+				3262157D3458D1339914244A /* Pods-POC-Practise-POC-PractiseUITests.debugqa.xcconfig */,
+				FCD8205B3679DE6112537626 /* Pods-POC-Practise-POC-PractiseUITests.release.xcconfig */,
+				7B5EF1C09B286985B22F83A3 /* Pods-POC-Practise-POC-PractiseUITests.releasedev.xcconfig */,
+				1755AA8F59A8AAC9E6829762 /* Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig */,
+				9149E21BA60FCC5450ADB8E6 /* Pods-POC-PractiseTests.debug.xcconfig */,
+				F9416DFA1EB89977227C1455 /* Pods-POC-PractiseTests.debugdev.xcconfig */,
+				6E9AE6D961F9C780146F645F /* Pods-POC-PractiseTests.debugqa.xcconfig */,
+				489D2AFD2AB61100C82138E4 /* Pods-POC-PractiseTests.release.xcconfig */,
+				8598F5DA18850493C7393EA1 /* Pods-POC-PractiseTests.releasedev.xcconfig */,
+				81E8087A73B2303FD98F9D27 /* Pods-POC-PractiseTests.releaseqa.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A61CD56E64E0B3EE6F5168BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C470657322DCD2983562D581 /* Pods_POC_Practise.framework */,
+				365624FA1A87DE7B61A734F3 /* Pods_POC_Practise_POC_PractiseUITests.framework */,
+				E8EC00ED7C163CC60BCB4C08 /* Pods_POC_PractiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0926284529470693004F053A /* POC-Practise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0926287029470695004F053A /* Build configuration list for PBXNativeTarget "POC-Practise" */;
+			buildPhases = (
+				9E82F0DFB6997C72AD347B54 /* [CP] Check Pods Manifest.lock */,
+				0926284229470693004F053A /* Sources */,
+				0926284329470693004F053A /* Frameworks */,
+				0926284429470693004F053A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "POC-Practise";
+			productName = "POC-Practise";
+			productReference = 0926284629470693004F053A /* POC-Practise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0926285B29470695004F053A /* POC-PractiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0926287329470695004F053A /* Build configuration list for PBXNativeTarget "POC-PractiseTests" */;
+			buildPhases = (
+				CAE514B20E8E9028DFEB3625 /* [CP] Check Pods Manifest.lock */,
+				0926285829470695004F053A /* Sources */,
+				0926285929470695004F053A /* Frameworks */,
+				0926285A29470695004F053A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0926285E29470695004F053A /* PBXTargetDependency */,
+			);
+			name = "POC-PractiseTests";
+			productName = "POC-PractiseTests";
+			productReference = 0926285C29470695004F053A /* POC-PractiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0926286529470695004F053A /* POC-PractiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0926287629470695004F053A /* Build configuration list for PBXNativeTarget "POC-PractiseUITests" */;
+			buildPhases = (
+				F3AC27CD1D5459CCED888FEB /* [CP] Check Pods Manifest.lock */,
+				0926286229470695004F053A /* Sources */,
+				0926286329470695004F053A /* Frameworks */,
+				0926286429470695004F053A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0926286829470695004F053A /* PBXTargetDependency */,
+			);
+			name = "POC-PractiseUITests";
+			productName = "POC-PractiseUITests";
+			productReference = 0926286629470695004F053A /* POC-PractiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0926283E29470693004F053A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					0926284529470693004F053A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					0926285B29470695004F053A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0926284529470693004F053A;
+					};
+					0926286529470695004F053A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 0926284529470693004F053A;
+					};
+				};
+			};
+			buildConfigurationList = 0926284129470693004F053A /* Build configuration list for PBXProject "POC-Practise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0926283D29470693004F053A;
+			productRefGroup = 0926284729470693004F053A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0926284529470693004F053A /* POC-Practise */,
+				0926285B29470695004F053A /* POC-PractiseTests */,
+				0926286529470695004F053A /* POC-PractiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0926284429470693004F053A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926285629470695004F053A /* LaunchScreen.storyboard in Resources */,
+				0926285329470695004F053A /* Assets.xcassets in Resources */,
+				0926285129470693004F053A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926285A29470695004F053A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926286429470695004F053A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E82F0DFB6997C72AD347B54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POC-Practise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE514B20E8E9028DFEB3625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POC-PractiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AC27CD1D5459CCED888FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-POC-Practise-POC-PractiseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0926284229470693004F053A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926284E29470693004F053A /* ViewController.swift in Sources */,
+				0926284A29470693004F053A /* AppDelegate.swift in Sources */,
+				0926289329471632004F053A /* ServerConfig.swift in Sources */,
+				0926284C29470693004F053A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926285829470695004F053A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926286129470695004F053A /* POC_PractiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0926286229470695004F053A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926286D29470695004F053A /* POC_PractiseUITestsLaunchTests.swift in Sources */,
+				0926286B29470695004F053A /* POC_PractiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0926285E29470695004F053A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0926284529470693004F053A /* POC-Practise */;
+			targetProxy = 0926285D29470695004F053A /* PBXContainerItemProxy */;
+		};
+		0926286829470695004F053A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0926284529470693004F053A /* POC-Practise */;
+			targetProxy = 0926286729470695004F053A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0926284F29470693004F053A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0926285029470693004F053A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0926285429470695004F053A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0926285529470695004F053A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0926286E29470695004F053A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG LOCAL";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0926286F29470695004F053A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = LOCAL;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0926287129470695004F053A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239F33904C65EF546D3C1BD8 /* Pods-POC-Practise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0926287229470695004F053A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D62863AD9538A7996EA3CA /* Pods-POC-Practise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0926287429470695004F053A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9149E21BA60FCC5450ADB8E6 /* Pods-POC-PractiseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = Debug;
+		};
+		0926287529470695004F053A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489D2AFD2AB61100C82138E4 /* Pods-POC-PractiseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = Release;
+		};
+		0926287729470695004F053A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB6865A4344C041A6CE7D5C /* Pods-POC-Practise-POC-PractiseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = Debug;
+		};
+		0926287829470695004F053A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD8205B3679DE6112537626 /* Pods-POC-Practise-POC-PractiseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = Release;
+		};
+		0926287E29471449004F053A /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugDev;
+		};
+		0926287F29471449004F053A /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64436DF32D78991C5B06BFF9 /* Pods-POC-Practise.debugdev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugDev;
+		};
+		0926288029471449004F053A /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9416DFA1EB89977227C1455 /* Pods-POC-PractiseTests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = DebugDev;
+		};
+		0926288129471449004F053A /* DebugDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D5623B7A9E5716A2104ED9 /* Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = DebugDev;
+		};
+		092628862947145F004F053A /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseDev;
+		};
+		092628872947145F004F053A /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FB383912A34A27654383D3 /* Pods-POC-Practise.releasedev.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseDev;
+		};
+		092628882947145F004F053A /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8598F5DA18850493C7393EA1 /* Pods-POC-PractiseTests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = ReleaseDev;
+		};
+		092628892947145F004F053A /* ReleaseDev */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5EF1C09B286985B22F83A3 /* Pods-POC-Practise-POC-PractiseUITests.releasedev.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = ReleaseDev;
+		};
+		0926288A2947146D004F053A /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG QA";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugQA;
+		};
+		0926288B2947146D004F053A /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE10BC42A55D8526D7B60255 /* Pods-POC-Practise.debugqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugQA;
+		};
+		0926288C2947146D004F053A /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9AE6D961F9C780146F645F /* Pods-POC-PractiseTests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = DebugQA;
+		};
+		0926288D2947146D004F053A /* DebugQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3262157D3458D1339914244A /* Pods-POC-Practise-POC-PractiseUITests.debugqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = DebugQA;
+		};
+		0926288E2947160B004F053A /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseQA;
+		};
+		0926288F2947160B004F053A /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939270140824AA7E72B29748 /* Pods-POC-Practise.releaseqa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "POC-Practise/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-Practise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = ReleaseQA;
+		};
+		092628902947160B004F053A /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E8087A73B2303FD98F9D27 /* Pods-POC-PractiseTests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-Practise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/POC-Practise";
+			};
+			name = ReleaseQA;
+		};
+		092628912947160B004F053A /* ReleaseQA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1755AA8F59A8AAC9E6829762 /* Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Synavos.POC-PractiseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-Practise";
+			};
+			name = ReleaseQA;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0926284129470693004F053A /* Build configuration list for PBXProject "POC-Practise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926286E29470695004F053A /* Debug */,
+				0926287E29471449004F053A /* DebugDev */,
+				0926288A2947146D004F053A /* DebugQA */,
+				0926286F29470695004F053A /* Release */,
+				092628862947145F004F053A /* ReleaseDev */,
+				0926288E2947160B004F053A /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0926287029470695004F053A /* Build configuration list for PBXNativeTarget "POC-Practise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926287129470695004F053A /* Debug */,
+				0926287F29471449004F053A /* DebugDev */,
+				0926288B2947146D004F053A /* DebugQA */,
+				0926287229470695004F053A /* Release */,
+				092628872947145F004F053A /* ReleaseDev */,
+				0926288F2947160B004F053A /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0926287329470695004F053A /* Build configuration list for PBXNativeTarget "POC-PractiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926287429470695004F053A /* Debug */,
+				0926288029471449004F053A /* DebugDev */,
+				0926288C2947146D004F053A /* DebugQA */,
+				0926287529470695004F053A /* Release */,
+				092628882947145F004F053A /* ReleaseDev */,
+				092628902947160B004F053A /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0926287629470695004F053A /* Build configuration list for PBXNativeTarget "POC-PractiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926287729470695004F053A /* Debug */,
+				0926288129471449004F053A /* DebugDev */,
+				0926288D2947146D004F053A /* DebugQA */,
+				0926287829470695004F053A /* Release */,
+				092628892947145F004F053A /* ReleaseDev */,
+				092628912947160B004F053A /* ReleaseQA */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0926283E29470693004F053A /* Project object */;
+}
