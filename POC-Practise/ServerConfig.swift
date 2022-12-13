@@ -21,8 +21,6 @@ public class ServerConfig {
     func serverConfig() {
         
         #if LOCAL
-        // dummy text
-        // change
         self.baseURL = BaseURL.LOCAL.rawValue
         
         #elseif DEV
