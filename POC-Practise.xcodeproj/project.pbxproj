@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0926284A29470693004F053A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284929470693004F053A /* AppDelegate.swift */; };
 		0926284C29470693004F053A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284B29470693004F053A /* SceneDelegate.swift */; };
-		0926284E29470693004F053A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284D29470693004F053A /* ViewController.swift */; };
+		0926284E29470693004F053A /* EmployeeDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926284D29470693004F053A /* EmployeeDataVC.swift */; };
 		0926285129470693004F053A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926284F29470693004F053A /* Main.storyboard */; };
 		0926285329470695004F053A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0926285229470695004F053A /* Assets.xcassets */; };
 		0926285629470695004F053A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0926285429470695004F053A /* LaunchScreen.storyboard */; };
@@ -17,6 +17,10 @@
 		0926286B29470695004F053A /* POC_PractiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926286A29470695004F053A /* POC_PractiseUITests.swift */; };
 		0926286D29470695004F053A /* POC_PractiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926286C29470695004F053A /* POC_PractiseUITestsLaunchTests.swift */; };
 		0926289329471632004F053A /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926289229471632004F053A /* ServerConfig.swift */; };
+		09F081DE2949B1DE001D5011 /* EmployeeDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F081DC2949B1DE001D5011 /* EmployeeDataCell.swift */; };
+		09F081DF2949B1DE001D5011 /* EmployeeDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F081DD2949B1DE001D5011 /* EmployeeDataCell.xib */; };
+		09F081E12949B261001D5011 /* EmployeesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F081E02949B261001D5011 /* EmployeesModel.swift */; };
+		09F081E42949B526001D5011 /* EmployeeDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F081E32949B526001D5011 /* EmployeeDataVM.swift */; };
 		0EB0B595590A475D515993FC /* Pods_POC_Practise_POC_PractiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365624FA1A87DE7B61A734F3 /* Pods_POC_Practise_POC_PractiseUITests.framework */; };
 		A358EE3109CEF7826CBD6DBB /* Pods_POC_Practise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C470657322DCD2983562D581 /* Pods_POC_Practise.framework */; };
 		E11187B7597AEB80EBF91FAD /* Pods_POC_PractiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EC00ED7C163CC60BCB4C08 /* Pods_POC_PractiseTests.framework */; };
@@ -43,7 +47,7 @@
 		0926284629470693004F053A /* POC-Practise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-Practise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0926284929470693004F053A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0926284B29470693004F053A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0926284D29470693004F053A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0926284D29470693004F053A /* EmployeeDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataVC.swift; sourceTree = "<group>"; };
 		0926285029470693004F053A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0926285229470695004F053A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0926285529470695004F053A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +58,10 @@
 		0926286A29470695004F053A /* POC_PractiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_PractiseUITests.swift; sourceTree = "<group>"; };
 		0926286C29470695004F053A /* POC_PractiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_PractiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0926289229471632004F053A /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		09F081DC2949B1DE001D5011 /* EmployeeDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataCell.swift; sourceTree = "<group>"; };
+		09F081DD2949B1DE001D5011 /* EmployeeDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDataCell.xib; sourceTree = "<group>"; };
+		09F081E02949B261001D5011 /* EmployeesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesModel.swift; sourceTree = "<group>"; };
+		09F081E32949B526001D5011 /* EmployeeDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataVM.swift; sourceTree = "<group>"; };
 		16D62863AD9538A7996EA3CA /* Pods-POC-Practise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise.release.xcconfig"; path = "Target Support Files/Pods-POC-Practise/Pods-POC-Practise.release.xcconfig"; sourceTree = "<group>"; };
 		1755AA8F59A8AAC9E6829762 /* Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.releaseqa.xcconfig"; sourceTree = "<group>"; };
 		19D5623B7A9E5716A2104ED9 /* Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig"; path = "Target Support Files/Pods-POC-Practise-POC-PractiseUITests/Pods-POC-Practise-POC-PractiseUITests.debugdev.xcconfig"; sourceTree = "<group>"; };
@@ -130,9 +138,11 @@
 		0926284829470693004F053A /* POC-Practise */ = {
 			isa = PBXGroup;
 			children = (
+				09F081D92949B181001D5011 /* Models */,
+				09F081DA2949B197001D5011 /* ViewModels */,
+				09F081D82949B0FB001D5011 /* ViewControllers */,
 				0926284929470693004F053A /* AppDelegate.swift */,
 				0926284B29470693004F053A /* SceneDelegate.swift */,
-				0926284D29470693004F053A /* ViewController.swift */,
 				0926284F29470693004F053A /* Main.storyboard */,
 				0926285229470695004F053A /* Assets.xcassets */,
 				0926285429470695004F053A /* LaunchScreen.storyboard */,
@@ -159,6 +169,48 @@
 			path = "POC-PractiseUITests";
 			sourceTree = "<group>";
 		};
+		09F081D82949B0FB001D5011 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				09F081E22949B49A001D5011 /* EmployeeData */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		09F081D92949B181001D5011 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09F081E02949B261001D5011 /* EmployeesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09F081DA2949B197001D5011 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				09F081E32949B526001D5011 /* EmployeeDataVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		09F081DB2949B1B7001D5011 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				09F081DC2949B1DE001D5011 /* EmployeeDataCell.swift */,
+				09F081DD2949B1DE001D5011 /* EmployeeDataCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		09F081E22949B49A001D5011 /* EmployeeData */ = {
+			isa = PBXGroup;
+			children = (
+				09F081DB2949B1B7001D5011 /* Cells */,
+				0926284D29470693004F053A /* EmployeeDataVC.swift */,
+			);
+			path = EmployeeData;
+			sourceTree = "<group>";
+		};
 		96D5FBDEF03A84836F095EC3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +233,6 @@
 				8598F5DA18850493C7393EA1 /* Pods-POC-PractiseTests.releasedev.xcconfig */,
 				81E8087A73B2303FD98F9D27 /* Pods-POC-PractiseTests.releaseqa.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -305,6 +356,7 @@
 				0926285629470695004F053A /* LaunchScreen.storyboard in Resources */,
 				0926285329470695004F053A /* Assets.xcassets in Resources */,
 				0926285129470693004F053A /* Main.storyboard in Resources */,
+				09F081DF2949B1DE001D5011 /* EmployeeDataCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,7 +450,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0926284E29470693004F053A /* ViewController.swift in Sources */,
+				0926284E29470693004F053A /* EmployeeDataVC.swift in Sources */,
+				09F081E42949B526001D5011 /* EmployeeDataVM.swift in Sources */,
+				09F081E12949B261001D5011 /* EmployeesModel.swift in Sources */,
+				09F081DE2949B1DE001D5011 /* EmployeeDataCell.swift in Sources */,
 				0926284A29470693004F053A /* AppDelegate.swift in Sources */,
 				0926289329471632004F053A /* ServerConfig.swift in Sources */,
 				0926284C29470693004F053A /* SceneDelegate.swift in Sources */,

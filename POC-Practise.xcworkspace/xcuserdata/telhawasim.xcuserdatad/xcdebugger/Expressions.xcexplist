@@ -3,6 +3,22 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "EmployeeDataVC.tableView(_:numberOfRowsInSection:):EmployeeDataVC.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.employeeResponse?.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in EmployeeDataVM.apiToGetEmployeeData(completion:):EmployeeDataVM.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "employeeResponse">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ServerConfig.serverConfig():ServerConfig.swift">
          <PersistentStrings>
             <PersistentString
