@@ -42,3 +42,8 @@ This is the code repository for [POC - Practise](https://github.com/telhawasim/p
 * Implemented the use of access modifiers in XCode
 * Understood the use of "SwiftLint Pod"
 * Configure and implemented SwiftLint Pod in XCode
+
+## 16th December, 2022
+* Understood software design patterns more briefly
+* Understood the use and concept of "FastLane"
+* Updated the Git, Readme.md file
