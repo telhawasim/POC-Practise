@@ -1,7 +1,7 @@
 # poc-practise
 
 # 13th December, 2022
-### Build Variants
+### * Build Variants
 ### * Understood the concept of Build Variants
 ### * Understood the working of Build Scheme and there configuration
 ### * Implemented the concept on XCode
